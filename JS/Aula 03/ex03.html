@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let soma = 0;
+
+      let contador = 1;
+      const qtdNumeros = Number(
+        prompt("Digite a quantidade de numeros que deseja somar: ")
+      );
+
+      while (contador <= qtdNumeros) {
+        const numero = Number(prompt("Digite um numero: "));
+
+        contador++;
+        soma += numero;
+      }
+
+      alert(`A soma dos numeros é: ${soma}`)
+    </script>
+  </body>
+</html>

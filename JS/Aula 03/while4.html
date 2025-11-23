@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Variaveis Auxiliares
+      let qtdPessoas = 0;
+
+      let qtdOutros = 0;
+      let qtdFeminino = 0;
+      let qtdMasculino = 0;
+
+      let continuar = true; // Variavel de Controle
+
+      while (continuar) {
+        const genero = prompt(
+          "Qual é o genero da pessoa? [M]asculino, [F]eminino ou [O]utro?"
+        );
+
+        if (genero == "M") {
+          qtdMasculino++;
+          qtdPessoas += 1;
+        } else if (genero == "F") {
+          qtdFeminino++;
+          qtdPessoas += 1;
+        } else if (genero == "O") {
+          qtdOutros++;
+          qtdPessoas += 1;
+        } else {
+          alert("Genero Inválido.");
+        }
+
+        continuar = confirm("Deseja continuar?");
+      }
+
+      alert(`Foram entrevistadas ${qtdPessoas} pessoas.`);
+      alert(
+        `Masculino: ${qtdMasculino}; Feminino: ${qtdFeminino}; Outros: ${qtdOutros}`
+      );
+    </script>
+  </body>
+</html>

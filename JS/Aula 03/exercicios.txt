@@ -1,0 +1,11 @@
+Ex01. Faça um programa que mostre uma contagem de 1 até 10 utilizando o WHILE.
+
+Ex02. Faça um programa que peça um numero positivo para o usuário, e realize uma contagem de 1 até esse numero (ele incluso).
+
+Ex03. Faça um programa que peça a quantidade de numeros que o usuário deseja somar, e então utilize o while para pedir os numeros para o usuário, ao final mostre a soma de todos os numeros.
+
+Ex04. Crie um programa que
+
+1. Peça ao usuário para digitar vários números.
+2. Depois pergunte se ele deseja continuar, pare se ele digitar `"N”`
+3. No final, mostre a soma de todos os números digitados.

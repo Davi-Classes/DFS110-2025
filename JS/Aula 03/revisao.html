@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+    Ex04. Faça um programa que peça a idade da pessoa e informe sua obrigação com votos:
+
+    - Se menor de 16: Não pode votar
+    - Se tiver 16 ou 17: Voto Facultativo
+    - Se for maior que 18 e menor que 65: Voto Obrigatório
+    - Se for maior ou igual a 65: Voto Facultativo 
+    -->
+    <script>
+      const idade = parseInt(prompt("Digite sua idade: "));
+
+      if (idade < 16) {
+        alert("Não pode votar.");
+      } else if (idade < 18 || idade >= 65) {
+        alert("Voto facultativo.");
+      } else {
+        alert("Voto obrigatório.");
+      }
+    </script>
+  </body>
+</html>
